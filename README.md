@@ -1,7 +1,5 @@
 # ✦ Artbook Links
 
-Uma landing page pessoal para reunir meus principais links, inspirada na estética de artbooks japoneses, character profiles e menus de JRPGs.
-
 Uma landing page pessoal para reunir meus principais links, inspirada na estética de **artbooks japoneses, character profiles e menus de JRPGs**.
 
 O projeto começou como uma alternativa mais personalizada a páginas tradicionais de links e acabou virando uma espécie de **perfil de personagem em formato de artbook digital**.
@@ -78,7 +76,6 @@ artbook-links/
     ├── aqua.gif
     ├── claire.gif
     └── piplup.gif
-
 ```
 
 ## ◇ Status
