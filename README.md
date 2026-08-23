@@ -78,3 +78,32 @@ artbook-links/
     ├── aqua.gif
     ├── claire.gif
     └── piplup.gif
+
+```
+
+## ◇ Status
+
+🚧 **Em desenvolvimento**
+
+Alguns detalhes visuais, links e ajustes para dispositivos menores ainda serão adicionados.
+
+## ✦ Próximos passos
+
+- [ ] Finalizar a página Link Archive
+- [ ] Ajustar responsividade para celulares
+- [ ] Revisar acessibilidade
+- [ ] Adicionar preview do projeto
+- [ ] Publicar a versão final
+
+## ☾ Créditos
+
+Projeto desenvolvido por **Talita**.
+
+As artes, personagens e GIFs utilizados como elementos visuais pertencem às suas respectivas obras e proprietários.
+
+Este é um projeto pessoal e não oficial, sem finalidade comercial.
+
+---
+
+> *“Listen to my story. This may be our last chance.”*  
+> — Final Fantasy X
