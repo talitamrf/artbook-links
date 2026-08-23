@@ -412,8 +412,6 @@ h3 {
   letter-spacing: 0.12em;
 }
 
-/* LISTA */
-
 .links-list {
   display: flex;
   flex-direction: column;
@@ -475,8 +473,6 @@ h3 {
   color: var(--purple-light);
 }
 
-/* LINKS DUPLOS */
-
 .sub-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -509,10 +505,6 @@ h3 {
   font-size: 0.9rem;
   font-weight: 500;
 }
-
-/* =========================
-   FAVORITE CHARACTERS
-========================= */
 
 .favorites-characters {
     width: 100%;
