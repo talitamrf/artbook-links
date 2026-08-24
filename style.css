@@ -266,16 +266,29 @@ h3 {
   }
 
   .character-space img {
-    width: clamp(250px, 43vw, 295px);
-
-    right: -5px;
-    bottom: 15px;
+    width: clamp(210px, 55vw, 260px);
+    right: -10px;
+    bottom: 10px;
   }
 
   .moon {
-    width: clamp(165px, 30vw, 200px);
+    width: clamp(140px, 38vw, 175px);
+    right: 5px;
+  }
+  .name-details {
+    left: auto;
+    right: 32%;
+    top: 20px;
 
-    right: 15px;
+    gap: 5px;
+  }
+
+  .name-details span:first-child {
+    font-size: 0.9rem;
+  }
+
+  .name-details span:last-child {
+    font-size: 0.5rem;
   }
 }
 
@@ -360,10 +373,6 @@ h3 {
 .series-table div:last-child {
   border-bottom: none;
 }
-
-/* =========================
-   LINKS PAGE
-========================= */
 
 .page--links {
   display: flex;
@@ -507,69 +516,69 @@ h3 {
 }
 
 .favorites-characters {
-    width: 100%;
-    margin-top: 32px;
+  width: 100%;
+  margin-top: 32px;
 }
 
 .favorites-characters .section-label {
-    width: 60%;
-    margin: 0 auto 18px;
+  width: 60%;
+  margin: 0 auto 18px;
 
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .character-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
 
-    width: 88%;
-    margin: 0 auto;
+  width: 88%;
+  margin: 0 auto;
 }
 
 .character-card {
-    margin: 0;
-    min-width: 0;
+  margin: 0;
+  min-width: 0;
 }
 
 .character-card img {
-    display: block;
+  display: block;
 
-    width: 100%;
-    aspect-ratio: 1 / 1;
+  width: 100%;
+  aspect-ratio: 1 / 1;
 
-    object-fit: cover;
-    object-position: center;
+  object-fit: cover;
+  object-position: center;
 
-    border: 1px solid var(--line);
+  border: 1px solid var(--line);
 }
 
 .character-card figcaption {
-    padding-top: 7px;
+  padding-top: 7px;
 }
 
 .character-card figcaption span {
-    display: block;
+  display: block;
 
-    color: var(--purple);
+  color: var(--purple);
 
-    font-family: "Cormorant Garamond", serif;
-    font-size: 0.9rem;
-    font-weight: 600;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.9rem;
+  font-weight: 600;
 
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .character-card figcaption small {
-    display: block;
+  display: block;
 
-    margin-top: 2px;
+  margin-top: 2px;
 
-    color: var(--muted);
+  color: var(--muted);
 
-    font-size: 0.43rem;
-    letter-spacing: 0.1em;
+  font-size: 0.43rem;
+  letter-spacing: 0.1em;
 }
