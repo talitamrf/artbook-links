@@ -265,31 +265,35 @@ h3 {
     min-height: 410px;
   }
 
-  .character-space img {
-    width: clamp(210px, 55vw, 260px);
-    right: -10px;
-    bottom: 10px;
-  }
+    .profile-title {
+        position: relative;
+    }
 
-  .moon {
-    width: clamp(140px, 38vw, 175px);
-    right: 5px;
-  }
-  .name-details {
-    left: auto;
-    right: 32%;
-    top: 20px;
+    .name-details {
+        left: 56%;
+        right: auto;
+        top: -8px;
 
-    gap: 5px;
-  }
+        gap: 4px;
+    }
 
-  .name-details span:first-child {
-    font-size: 0.9rem;
-  }
+    .name-details span:first-child {
+        font-size: 0.8rem;
+    }
 
-  .name-details span:last-child {
-    font-size: 0.5rem;
-  }
+    .name-details span:last-child {
+        font-size: 0.45rem;
+    }
+    .character-space img {
+        width: clamp(175px, 50vw, 220px);
+
+        right: -18px;
+        bottom: 55px;
+    }
+    .moon {
+        width: clamp(125px, 36vw, 155px);
+        right: 5px;
+    }
 }
 
 .page-footer {
